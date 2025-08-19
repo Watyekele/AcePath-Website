@@ -3,11 +3,11 @@ export default function Testimonials() {
     <div className="flex flex-col items-center gap-2 mt-4">
       <h1>TESTIMONIALS</h1>
       <img src="../Rectangle-6.png" alt="Red_underline" />
-      <div>
+      <div className=" flex flex-col items-center  ">
         <section className="flex justify-center items-center gap-2 p-4">
           <img src="../Vector-9.png" alt="" />
-          <img src="../Ellipse-50.png" alt="" />
-          <section className="flex flex-col">
+          <img src="../Ellipse-50.png" className="w-30" alt="" />
+          <section className="flex flex-col ">
             <section className="flex">
               <img
                 src="../Star_fill@3x.png"
@@ -31,7 +31,7 @@ export default function Testimonials() {
               />
             </section>
             <article className="flex flex-col items-left justify-center">
-              <p>
+              <p className="align-left">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias,
                 mollitia!
               </p>
@@ -40,8 +40,11 @@ export default function Testimonials() {
 
           <img src="../Vector-9i.png" alt="" />
         </section>
-        <img src="../Ellipse-51.png" alt="" />
-        <img src="../Ellipse-52.png" alt="" />
+        <section className="flex gap-2">
+          <img src="../Ellipse-51.png" alt="" />
+          <img src="../Ellipse-52.png" alt="" />
+          <img src="../Ellipse-52.png" alt="" />
+        </section>
       </div>
     </div>
   );

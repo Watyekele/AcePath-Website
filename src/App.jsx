@@ -8,13 +8,13 @@ import "./App.css";
 function App() {
   return (
     <div
-      className="flex flex-col  items-center justify-center
+      className="flex flex-col items-center justify-center
       "
     >
       ``
       <div
-        className="  text-white w-[440px] min-h-200 border border-white
-         bg-[url('/Guy-Image.png')] bg-no-repeat
+        className="  text-white w-[440px] min-h-300 border border-white
+         bg-[url('/Guy-Image.png')] bg-no-repeat bg-gray-900
       "
       >
         <Navbar />
