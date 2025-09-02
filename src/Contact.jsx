@@ -1,55 +1,68 @@
 export default function Contact() {
   return (
-    <div className="w-[426px] h-[233] flex flex-col items-center relative">
-      <h1>CONTACT</h1>
-      <img src="../Rectangle-6.png" alt="" />
-      <section className=" text-sm absolute left-4 top-12 ">
-        <p>Lubowa, Kampala, Uganda</p>
-        <article className="flex items-center gap-1">
-          <img src="../Vector-189.png" alt="" />
-          <p>0784400989, Acepath-Learning</p>
-        </article>
-        <article className="flex items-center gap-1">
-          <img src="../Message_light.png" alt="" />
+    <div className="flex flex-col items-center gap-4 mt-10 p-4 w-full max-w-[600px] mx-auto">
+      {/* Heading */}
+      <h1 className="text-2xl font-bold">CONTACT</h1>
+      <img src="../Rectangle-6.png" alt="underline" className="w-[120px] h-2" />
 
-          <p>acepathtutoring@gmail.com</p>
-        </article>
+      <div className="flex flex-col md:flex-row justify-between gap-8 w-full">
+        {/* Contact Info */}
+        <section className="text-sm flex flex-col gap-3">
+          <p className="font-medium">Lubowa, Kampala, Uganda</p>
 
-        <p>Mon-Fri: 8am-5pm</p>
-      </section>
-      <section className=" m-2  absolute top-10 right-1">
-        <form action="">
-          <div className="flex items-center gap-2 my-2 ">
-            <input
-              type="text"
-              placeholder="Name"
-              className="border border-white w-20 h-6 text-sm p-1 rounded"
+          <article className="flex items-center gap-2">
+            <img src="../Vector-189.png" alt="Phone icon" className="w-4 h-4" />
+            <p>0784400989, Acepath-Learning</p>
+          </article>
+
+          <article className="flex items-center gap-2">
+            <img
+              src="../Message_light.png"
+              alt="Email icon"
+              className="w-4 h-4"
             />
+            <p>acepathtutoring@gmail.com</p>
+          </article>
+
+          <p className="font-light">Mon-Fri: 8am - 5pm</p>
+        </section>
+
+        {/* Contact Form */}
+        <section className="flex-1">
+          <form className="flex flex-col gap-3">
+            <div className="flex flex-col md:flex-row gap-3">
+              <input
+                type="text"
+                placeholder="Name"
+                className="flex-1 border border-white bg-transparent h-10 text-sm p-2 rounded"
+              />
+              <input
+                type="text"
+                placeholder="Phone"
+                className="flex-1 border border-white bg-transparent h-10 text-sm p-2 rounded"
+              />
+            </div>
+
             <input
-              type="text"
-              placeholder="Phone"
-              className="border border-white w-20 h-6 text-sm p-1 rounded"
+              type="email"
+              placeholder="Email"
+              className="border border-white bg-transparent h-10 text-sm p-2 rounded w-full"
             />
-          </div>
-          <input
-            type="email"
-            placeholder="Email"
-            className="border border-white w-42 text-sm p-1 block rounded "
-          />
-          <textarea
-            name=""
-            placeholder="Message"
-            className="w-20 border border-white block mt-2 h-10 w-40 p-1"
-            id=""
-          ></textarea>
-          <button
-            type="submit"
-            className="border border-white bg-red-800 font-bold w-40 mt-2 rounded-md"
-          >
-            Contact Us
-          </button>
-        </form>
-      </section>
+
+            <textarea
+              placeholder="Message"
+              className="border border-white bg-transparent text-sm p-2 rounded w-full h-24 resize-none"
+            ></textarea>
+
+            <button
+              type="submit"
+              className="border border-white bg-red-800 font-bold py-2 rounded-md hover:bg-red-700 transition"
+            >
+              Contact Us
+            </button>
+          </form>
+        </section>
+      </div>
     </div>
   );
 }
