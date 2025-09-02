@@ -10,13 +10,13 @@ import "./App.css";
 
 export default function App() {
   return (
-    <div className="w-full min-h-screen flex flex-col relative">
+    <div className="max-w-screen min-h-screen flex flex-col relative">
       {/* Hero section with background image */}
 
       {/* Rest of your content */}
       <div className="flex flex-col items-center text-white bg-gray-900">
         <div
-          className=" w-[700px] h-[60vh]  bg-[url('/Guy-Image.png')] bg-cover 
+          className="w-full h-[60vh]  bg-[url('/Guy-Image.png')] bg-cover 
       bg-center bg-no-repeat flex items-center justify-center w-full"
         >
           <Navbar />

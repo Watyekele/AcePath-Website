@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className=" flex flex-col gap-6 mt-55">
+    <div className=" flex flex-col gap-6 w-full mt-55">
       <img src="../Google-Map.png" alt="" />
       <section className="flex gap-4">
         <article className="w-50 p-2">
