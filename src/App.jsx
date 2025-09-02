@@ -10,18 +10,17 @@ import "./App.css";
 
 export default function App() {
   return (
-    <div className="w-[700px] min-h-screen flex flex-col relative">
+    <div className="w-full min-h-screen flex flex-col relative">
       {/* Hero section with background image */}
-      <div
-        className="w-full h-[60vh]   /* adjust 60vh to control height */
-                   bg-[url('/Guy-Image.png')] bg-cover bg-center bg-no-repeat
-                   flex items-center justify-center"
-      >
-        <Navbar />
-      </div>
 
       {/* Rest of your content */}
       <div className="flex flex-col items-center text-white bg-gray-900">
+        <div
+          className=" w-[700px] h-[60vh]  bg-[url('/Guy-Image.png')] bg-cover 
+      bg-center bg-no-repeat flex items-center justify-center w-full"
+        >
+          <Navbar />
+        </div>
         <About />
         <Services />
         <Testimonials />
