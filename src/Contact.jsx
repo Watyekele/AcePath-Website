@@ -2,12 +2,14 @@ export default function Contact() {
   return (
     <div className="flex flex-col items-center gap-4 mt-10 p-4 w-full max-w-[600px] mx-auto">
       {/* Heading */}
-      <h1 className="text-2xl font-bold">CONTACT</h1>
-      <img src="../Rectangle-6.png" alt="underline" className="w-[120px] h-2" />
+      <header className="flex flex-col items-center gap-2 w-full">
+        <h1 className="text-2xl font-bold">CONTACT</h1>
+        <img src="../Rectangle-6.png" alt="underline" className="w-[15%] h-2" />
+      </header>
 
-      <div className="flex flex-col md:flex-row justify-between gap-8 w-full">
+      <div className="flex flex-col md:flex-row justify-evenly   gap-14 w-full">
         {/* Contact Info */}
-        <section className="text-sm flex flex-col gap-3">
+        <section className="text-sm flex flex-col  gap-3">
           <p className="font-medium">Lubowa, Kampala, Uganda</p>
 
           <article className="flex items-center gap-2">

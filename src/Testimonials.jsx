@@ -2,12 +2,14 @@ export default function Testimonials() {
   return (
     <div className="flex flex-col items-center gap-4 mt-6 w-full">
       {/* Heading */}
-      <h1 className="text-2xl font-bold">TESTIMONIALS</h1>
-      <img
-        src="../Rectangle-6.png"
-        alt="Red underline"
-        className="w-[120px] h-2"
-      />
+      <section className="flex flex-col items-center gap-2 w-full">
+        <h1 className="text-2xl font-bold ">TESTIMONIALS</h1>
+        <img
+          src="../Rectangle-6.png"
+          alt="Red underline"
+          className="w-[15%] h-2"
+        />
+      </section>
 
       {/* Testimonial Card */}
       <div className="flex flex-col items-center bg-white/5 rounded-2xl shadow-md p-6 max-w-[600px]">

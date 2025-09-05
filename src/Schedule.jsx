@@ -15,10 +15,13 @@ export default function Schedule() {
   ];
 
   return (
-    <div className="mt-8 flex flex-col items-center gap-4 m-2 w-full max-w-[500px]">
+    <div className="mt-10 flex flex-col items-center gap-4 m-2 w-full max-w-[500px]">
       {/* Header */}
-      <h1 className="text-2xl font-bold">SCHEDULE BOOKING</h1>
-      <img src="../Rectangle 7.png" alt="underline" className="w-[120px] h-2" />
+
+      <header className="flex flex-col items-center w-full gap-2">
+        <h1 className="text-2xl font-bold">SCHEDULE BOOKING</h1>
+        <img src="../Rectangle 7.png" alt="underline" className="w-[15%] h-2" />
+      </header>
 
       {/* Booking Cards */}
       {bookings.map((booking, index) => (
