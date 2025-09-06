@@ -2,7 +2,7 @@ export default function About() {
   return (
     <div className="mt-8 flex flex-col items-center gap-8 p-8 w-full min-h-screen ">
       <section className="flex flex-col items-center gap-2 w-full">
-        <h2 className="text-4xl font-bold">About Our Services</h2>
+        <h2 className="text-3xl md:text-2xl font-bold">About Our Services</h2>
         <img
           src="../Rectangle-6.png"
           className="w-[15%] mx-auto h-2"
