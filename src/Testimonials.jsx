@@ -12,10 +12,10 @@ export default function Testimonials() {
       </section>
 
       {/* Testimonial Card */}
-      <div className="flex flex-col items-center bg-white/5 rounded-2xl shadow-md p-6 max-w-[600px]">
+      <div className="flex flex-col items-center bg-white/5 rounded-2xl shadow-md p-6  w-[95%] ">
         <section className="flex items-center justify-center gap-4">
           {/* Left Quote Icon */}
-          <img src="../Vector-9.png" alt="Quote left" className="w-6 h-6" />
+          <img src="../Vector-9.png" alt="Quote left" className="w-4 h-6" />
 
           {/* Avatar + Text */}
           <div className="flex flex-col items-start gap-2">
@@ -47,7 +47,7 @@ export default function Testimonials() {
           </div>
 
           {/* Right Quote Icon */}
-          <img src="../Vector-9i.png" alt="Quote right" className="w-6 h-6" />
+          <img src="../Vector-9i.png" alt="Quote right" className="w-4 h-6" />
         </section>
 
         {/* Navigation Dots */}
