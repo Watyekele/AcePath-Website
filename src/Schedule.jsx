@@ -15,7 +15,7 @@ export default function Schedule() {
   ];
 
   return (
-    <div className="mt-8 flex flex-col items-center gap-4 m-4 w-full max-w-5xl min-h-screen">
+    <div className="mt-8 flex flex-col items-center gap-4 m-4 w-full max-w-screen min-h-screen">
       {/* Header */}
 
       <header className="flex flex-col items-center w-full gap-2">
@@ -28,20 +28,22 @@ export default function Schedule() {
         {bookings.map((booking, index) => (
           <section
             key={index}
-            className="flex gap-8 p-8 m-4 border-none border-white rounded-xl items-center bg-white/5 shadow-md w-[90%] md:w-[80%] lg:w-[70%] 
+            className="flex gap-8 p-8 m-8 border-none border-white rounded-xl items-center bg-white/5 shadow-md w-[90%] md:w-[80%] lg:w-[70%] 
                    min-h-[300px] max-w-5xl  relative"
           >
             {/* Image Placeholder */}
             <img
               src="../Rectangle-13.png"
               alt="Thumbnail"
-              className="w-[50%] object-cover rounded-lg"
+              className="w-[20%] object-cover rounded-lg"
             />
 
             {/* Text Section */}
             <article className="flex flex-col gap-2">
-              <h2 className="text-lg font-semibold">{booking.title}</h2>
-              <p className="text-lg text-gray-300">{booking.description}</p>
+              <h2 className="text-lg font-semibold min-w-10">
+                {booking.title}
+              </h2>
+              <p className="text-md text-gray-300">{booking.description}</p>
             </article>
 
             {/* Price Tag */}
