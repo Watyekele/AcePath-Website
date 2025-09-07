@@ -16,7 +16,7 @@ export default function App() {
       {/* Rest of your content */}
       <div className="flex flex-col items-center text-white bg-gray-900">
         <div
-          className="w-full h-[100vh]   bg-[url('/Guy-Image.png')]  bg-cover  
+          className="w-full h-[100vh]   bg-[url('/Guy-Image.png')]  bg-cover 
       bg-top bg-no-repeat flex items-center justify-center w-full"
         >
           <Navbar />
