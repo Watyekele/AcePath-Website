@@ -1,6 +1,6 @@
 export default function Testimonials() {
   return (
-    <div className="flex flex-col items-center justify-center gap-8 mt-12 w-full min-h-screen">
+    <div className="flex flex-col items-center justify-center  mt-8 w-full min-h-[60vh] md:min-h-[80vh] lg:min-h-screen">
       {/* Heading */}
       <section className="flex flex-col items-center gap-2">
         <h1 className="text-2xl md:text-3xl font-bold">TESTIMONIALS</h1>
@@ -12,7 +12,7 @@ export default function Testimonials() {
       </section>
 
       {/* Testimonial Card */}
-      <div className=" flex flex-1 items-center justify-center w-full">
+      <div className=" flex py-16 md:py-24 items-center justify-center w-full">
         <div
           className="flex  flex-col items-center justify-center 
                    bg-white/5 rounded-2xl shadow-md p-8 

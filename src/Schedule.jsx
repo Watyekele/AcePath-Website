@@ -15,7 +15,7 @@ export default function Schedule() {
   ];
 
   return (
-    <div className="mt-8 flex flex-col items-center gap-4 m-4 w-full max-w-screen min-h-screen">
+    <div className="mt-8 flex flex-col items-center gap-4 m-4 w-full max-w-screen min-h-[60vh] md:min-h-[80vh] lg:min-h-screen">
       {/* Header */}
 
       <header className="flex flex-col items-center w-full gap-2">
@@ -24,7 +24,7 @@ export default function Schedule() {
       </header>
 
       {/* Booking Cards */}
-      <div className="flex flex-col flex-1 items-center justify-center min-h-[400px] w-full ">
+      <div className="flex flex-col py-16 md:py-24 items-center justify-center min-h-[400px] w-full ">
         {bookings.map((booking, index) => (
           <section
             key={index}

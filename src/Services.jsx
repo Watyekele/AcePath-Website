@@ -1,6 +1,6 @@
 export default function Services() {
   return (
-    <div className="flex flex-col items-center gap-2 mt-4 w-full min-h-screen">
+    <div className="flex flex-col items-center gap-2 mt-4 w-full min-h-[60vh] md:min-h-[80vh] lg:min-h-screen">
       <h1 className="text-2xl md:text-3xl font-bold">Services</h1>
       <img src="../Rectangle 7.png" alt="" className="w-[15%] h-2" />
       <section className="flex items-center justify-center gap-2 p-2 flex-wrap  m-4">

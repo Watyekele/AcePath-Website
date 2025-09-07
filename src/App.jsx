@@ -10,7 +10,7 @@ import "./App.css";
 
 export default function App() {
   return (
-    <div className="w-full min-h-screen min-w-screen flex flex-col relative m-2  ">
+    <div className="w-full min-h-screen m-w-screen flex flex-col relative m-2  ">
       {/* Hero section with background image */}
 
       {/* Rest of your content */}
